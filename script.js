@@ -3,7 +3,7 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
 const recognition = new SpeechRecognition();
 recognition.interimResults = true; //décline chaque mot en un resultat
 
-const speakers = ['Abdou', 'Auxence', 'Emilie', 'Marjolaine', 'Mohamed', 'Walid'];
+const speakers = ['Abdou', 'Auxence', 'Émilie', 'marjolaine', 'Mohamed', 'Walid', 'Aurélien', 'Margot'];
 
 let p = document.createElement('p');
 let speakerName = document.createElement("h3");
@@ -11,7 +11,6 @@ const words = document.querySelector('.words');
 
 function addSpeaker(transcript){
     for(let speaker of speakers){
-        console.log(speaker);
         if(transcript.includes(speaker))
             return speaker + ":";
     }  
