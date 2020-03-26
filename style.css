@@ -15,7 +15,7 @@ h3{
 
 section{
     padding: 0 50px;
-    overflow: hidden;
+    overflow: scroll;
     min-height: 680px;
     max-height: 680px
 }
