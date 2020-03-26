@@ -1,13 +1,36 @@
 body{
     background-color: rgb(33, 55, 97);
 }
-.words {
+
+
+section, h3{
     max-width: 900px;
-    min-height: 50px;
     background-color: #fff;
-    border: 2px solid #000;
-    margin: auto;
-    padding: 50px;
+    margin: 10px auto;
+}
+
+h3{
+    padding: 30px 50px;
+}
+
+section{
+    padding: 0 50px;
+    overflow: hidden;
+    min-height: 680px;
+    max-height: 680px
+}
+
+.words {
+    padding: 20px 0;
+    /* background: -webkit-linear-gradient(#333, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.words span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0 18px;
 }
 
 p{
